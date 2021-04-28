@@ -1,11 +1,11 @@
 ---
 application:
-  name: "pleech"
+  name: "publicleech"
   project: "asdf1"
   organization: "QoveryCommunity"
 routers:
-- name: "main-pleech"
+- name: "main-publicleech"
   routes:
-  - application_name: "pleech"
+  - application_name: "publicleech"
     paths:
     - "/*"
