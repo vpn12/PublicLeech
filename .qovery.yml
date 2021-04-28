@@ -1,0 +1,11 @@
+---
+application:
+  name: "pleech"
+  project: "asdf1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-pleech"
+  routes:
+  - application_name: "pleech"
+    paths:
+    - "/*"
